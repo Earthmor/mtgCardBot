@@ -1,5 +1,7 @@
 # Compiled class file
 *.class
+target
+target/*
 
 # Log file
 *.log
@@ -18,5 +20,23 @@
 *.tar.gz
 *.rar
 
+#Eclipse files
+bin
+bin/*
+.settings
+.project
+.classpath
+
+
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# Ignore Vim files
+Session.vim
+.netrwhist
+*~
+tags
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-v][a-z]
+[._]sw[a-p]
